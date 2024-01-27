@@ -1,0 +1,44 @@
+
+
+
+.heightC{
+    display: flex;
+height: 100% !important;
+}
+
+.maingrid{
+    display: flex !important;
+    /* width: 90%; */
+    justify-content: center !important;
+    align-items: center !important;
+
+    
+    
+}
+
+.mg-img{
+    display:flex ;
+    background-color: rgb(94, 115, 132);
+    height: 200px;
+    width: 300px;  
+    
+    /* display: inline-block !important; */
+}
+
+#midgrid{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.midgrid{
+    display: grid;
+    grid-template-columns: repeat(5,150px);
+    grid-template-rows: repeat(5,200px);
+
+}
+
+.e2{
+    background-color: darkslategrey;
+    margin: 5px;
+}
